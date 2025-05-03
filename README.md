@@ -1,6 +1,4 @@
-# Awesome Code Template
-
-This repository is a template with basic elements that every repository at Stratosphere should follow.
+# Satellite Security Through Integrity
 
 ## Features
 
