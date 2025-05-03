@@ -1,22 +1,29 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software or thesis, please cite it as below."
 authors:
-- family-names: "YOUR_NAME_HERE"
-  given-names: "YOUR_NAME_HERE"
-  email: youremailhere
+- family-names: "Bousquet"
+  given-names: "Juan Ignacio"
+  email: juanibuqt@gmail.com
   affiliation: >-
       Stratosphere Laboratory, AIC, FEL, Czech
       Technical University in Prague
   orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Lisa"
-  given-names: "Mona"
-  email: youremailhere
-  affiliation: >-
-      Stratosphere Laboratory, AIC, FEL, Czech
-      Technical University in Prague
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "repository-template"
+title: "Security of an in-orbit satellite: Detection of compromise through integrity"
 version: 1.0.0
 doi: 10.5281/zenodo.1234
-date-released: 2022-07-13
-url: "https://github.com/stratosphereips/repository-template"
+date-released: 2025-05-03
+type: thesis
+keywords:
+  - Satellites
+  - Satellite Security
+  - Cybersecurity
+repository-code: "https://github.com/stratosphereips/satellite-security-through-integrity"
+license: # Add your license here if applicable
+url: "https://github.com/stratosphereips/satellite-security-through-integrity" # Replace with actual URL when available
+abstract: >-
+  Small satellites face significant challenges to guarantee the integrity of satellite and payload data in orbit.
+  In the worst-case scenario of malicious software running in the satellite, minimal mechanisms are in place to protect satellite data, or give status visibility to mission control. Especially in cheaper open-hardware satellites.
+  This thesis explores methodologies to improve the data integrity of a satellite data and packets sent to the ground station as status telemetry. It studies how to maintain and guarantee integrity against threats or attacks on satellite and payload images.
+  The proposal is to use a hardware TPM (Trusted Platform Module), secure implementations of hash and sign algorithms, and a hash chain with proof of work (PoW) to maintain a verifiable and immutable record of operations on satellite and payload data.
+  The evaluation consisted in a series of experiments simulating realistic small satellite scenarios using a Raspberry Pi as low-resource hardware, executing malware commands, and testing mitigation.
+message: "Master thesis supervised by Assist. Prof. Sebastian Garcia, Ph.D and Ing. Veronica Valeros"
