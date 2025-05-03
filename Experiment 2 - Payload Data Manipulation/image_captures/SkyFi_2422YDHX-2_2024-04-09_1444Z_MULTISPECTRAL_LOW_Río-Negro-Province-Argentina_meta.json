@@ -1,0 +1,26 @@
+{
+  "satellite": "Sentinel-2A",
+  "cloud_percentage": 1.933912,
+  "capture_time": "2024-04-09T14:44:22",
+  "crs": "EPSG:32719",
+  "band_order": [
+    "Coastal_aerosol",
+    "B",
+    "G",
+    "R",
+    "Vegetation_red_edge_1",
+    "Vegetation_red_edge_2",
+    "Vegetation_red_edge_3",
+    "NIR",
+    "Water_vapour",
+    "SWIR_1",
+    "SWIR_2",
+    "Narrow_NIR"
+  ],
+  "nodata_value": 0,
+  "processing_level": "ORTHO",
+  "data_bits": 16,
+  "gsd_meters_y": 10.0,
+  "gsd_meters_x": 10.0,
+  "license": "Contains modified Copernicus Sentinel data 2024. Delivered by SkyFi\u00ae"
+}

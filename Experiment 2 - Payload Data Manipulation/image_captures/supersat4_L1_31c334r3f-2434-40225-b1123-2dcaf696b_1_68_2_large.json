@@ -1,0 +1,29 @@
+{
+    "image_capture": [
+        {
+            "file_name": "supersat4_L1_31c334r3f-2434-40225-b1123-2dcaf696b_1_68_2_large.jpg",
+        }
+    ],
+    "coordinates": {
+        "points": [
+            [
+                -71.98234787473829,
+                -12.82345097234579
+            ]
+        ]
+    },
+    "metadata": [
+        {
+            "timestamp": "2022-01-11T04:29:12.35532+01:10",
+            "azimuth": 2.234234494,
+            "product": "L1",
+            "satellite_name": "supersat4",
+            "camera": "superhighresolution",
+            "clouds_percentage": 10.0,
+            "target": {
+                "latitude": -71.98234787473829,
+                "longitude": -12.82345097234579
+            }
+        }
+    ]
+}
