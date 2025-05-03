@@ -1,5 +1,7 @@
 # Satellite Security Through Integrity
 
+Master's thesis repository
+
 ## Features
 
 Write about what makes your [tool|code|data|repo] special.
