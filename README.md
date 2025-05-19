@@ -10,7 +10,7 @@ This thesis explores how to improve the data integrity of satellite data, packet
 
 The proposal is to use a hardware TPM (Trusted Platform Module), secure implementations of hash and sign algorithms, and a hash chain with proof of work (PoW) to maintain a verifiable and immutable record of operations on satellite and payload data. The TPM (Trusted Platform Module) is also used to guarantee the integrity and traceability of image captures to a specific satellite.
 
-## Experiments
+## Experiments and Appendice
 
 ### Experiment 1 - Benchmark of Hashing Algorithms
 The proposed benchmark evaluation aims to find the less resource-consuming algorithm and chunk size for hashing on the Raspberry Pi. In this scenario, this hardware represents the resource-constrained satellite system. To achieve this goal, the consumption of resources is measured on the Raspberry Pi while performing hashing operations with various algorithms. The benchmark includes CPU consumption (each core, in percentage), memory (free and used in MB), memory card storage (read/write operations in MB/s), and CPU temperature (in Celsius degrees). Additionally, time spent is measured (in seconds) on a Raspberry Pi when doing hashing operations. The hashing algorithms used are MD5, SHA-256, and SHA3-256, with chunk sizes (in bytes) 4096, 8192, and 16384. Tableau graphs and all data collected during benchmarks are available.
@@ -23,6 +23,9 @@ This experiment explores the challenge of having malware on the satellite's main
 
 ### Experiment 4 - Malware Targeting Satellite's Core Files
 This experiment simulates malware that gains access to the Main Board ('first domain') and attempts to modify or delete files. The files are now monitored by a Log Box ('second domain'). Previous experiments had a 'second domain' with a TPM together with the camera payload, but this approach was not used in this experiment. The Log Box is a new proposal for implementing a secure hash chain that attempts to guarantee the integrity of the system by verifying the existence and content of files before their transmission to the ground station.
+
+### Appendice: TPM Install and General Information
+This section aims to provide a comprehensive account of the installation process and use of LetsTrust-TPM2Go USB 2.0 with the Infineon Optiga™ SLB 9672 FW 15.23 TPM 2.0 chip. The installation process, initialization of the TPM device, and a compendium of commands for its operation, use, and management are detailed, which enables the device to operate effectively within Raspberry Pi OS 32-bit Raspbian GNU/Linux 12 (bookworm), kernel: Linux 6.6.31+rpt-rpi-v7.
 
 ## Repository Contents
 
