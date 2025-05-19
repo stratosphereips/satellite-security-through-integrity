@@ -46,7 +46,7 @@ Please check the thesis document which has all details about how to run the expe
 
 ## About
 
-This repository was developed and is maintained by Bousquet Juan Ignacio mailto:juanibuqt@gmail.com, at the Stratosphere Laboratory at the Czech Technical University in Prague. 
+This repository was developed and is maintained by [Juan Ignacio Bousquet](mailto:juanibuqt@gmail.com) at the [Stratosphere Laboratory](https://stratosphereips.org/) of the Czech Technical University in Prague.  
 It contains the implementation and evaluation of security measures for protecting the integrity of satellite data in low-cost, open-hardware satellites.
 
 ## License
